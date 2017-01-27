@@ -12,9 +12,9 @@
    id="svg22902"
    version="1.1"
    inkscape:version="0.91 r13725"
-   width="983.60791"
-   height="688.59967"
-   viewBox="0 0 983.60791 688.59967"
+   width="2500"
+   height="680"
+   viewBox="0 0 2500 680"
    sodipodi:docname="schlib_logo.svg"
    inkscape:export-filename="/home/sebastian/code/schlib/logo/schlib_logo.png"
    inkscape:export-xdpi="19.125"
@@ -46,9 +46,9 @@
      inkscape:window-height="1056"
      id="namedview22904"
      showgrid="false"
-     inkscape:zoom="0.4445"
-     inkscape:cx="-200.26916"
-     inkscape:cy="243.88965"
+     inkscape:zoom="0.31430896"
+     inkscape:cx="906.62663"
+     inkscape:cy="361.80669"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -59,50 +59,67 @@
      fit-margin-bottom="50" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:20;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 40.667357,122.82024 C 9.1712965,30.581765 1026.0442,55.328665 945.0543,127.31967 c 12.2935,32.53697 -4.7724,182.29344 0,220.47244 14.669,41.40552 -278.66877,268.37542 -296.96287,269.96622 -8.74935,11.9309 -262.8311,17.6352 -256.46794,-2.2497 -41.36058,-1.5908 -366.614523,-257.64931 -341.957253,-263.21708 3.97698,-21.47568 -3.43111,-215.94958 -8.99888,-229.47131 z"
+     d="M 62.667357,114.22057 C 31.171297,21.982095 1048.0442,46.728995 967.0543,118.72 c 12.2935,32.53697 -4.7724,182.29344 0,220.47244 14.669,41.40552 -278.66877,268.37542 -296.96287,269.96622 -8.74935,11.9309 -262.8311,17.6352 -256.46794,-2.2497 C 372.26291,605.31816 47.008967,349.25965 71.666237,343.69188 75.643217,322.2162 68.235127,127.7423 62.667357,114.22057 Z"
      id="path22912"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 49.666237,111.82136 C -20.075053,146.692 982.1747,155.69087 939.43,119.69537"
+     d="M 71.666237,103.22169 C 1.924947,138.09233 1004.1747,147.0912 961.43,111.0957"
      id="path22969"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-     d="m 939.6797,357.79211 c 46.1192,-98.98763 -383.57702,273.34082 -302.58714,258.71762 6.74916,11.2486 21.37233,4.4994 21.37233,4.4994"
+     d="m 961.6797,349.19244 c 46.1192,-98.98763 -383.57702,273.34082 -302.58714,258.71762 6.74916,11.2486 21.37233,4.4994 21.37233,4.4994"
      id="path22971"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:20;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-     d="M 383.62349,610.26003 C 474.7371,627.13293 58.539127,291.92485 54.039687,358.29155"
+     d="M 405.62349,601.66036 C 496.7371,618.53326 80.539127,283.32518 76.039687,349.69188"
      id="path22973"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:36, 36;stroke-dashoffset:0;stroke-opacity:1"
-     d="M 47.416507,176.19481 C 44.041937,205.44116 889.9362,232.43777 945.0543,172.82023"
+     d="M 69.416507,167.59514 C 66.041937,196.84149 911.9362,223.8381 967.0543,164.22056"
      id="path22975"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:36, 36;stroke-dashoffset:0;stroke-opacity:1"
-     d="m 372.50088,229.68187 c -5.6243,14.62317 -33.74578,318.33516 -19.12261,295.83796"
+     d="m 394.50088,221.0822 c -5.6243,14.62317 -33.74578,318.33516 -19.12261,295.83796"
      id="path22977"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:36, 36;stroke-dashoffset:0;stroke-opacity:1"
-     d="m 669.46376,229.68188 c 12.37345,13.49831 22.4972,314.96065 1.12487,300.33745"
+     d="m 691.46376,221.08221 c 12.37345,13.49831 22.4972,314.96065 1.12487,300.33745"
      id="path22979"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:18;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:36, 36;stroke-dashoffset:0;stroke-opacity:1"
-     d="m 404.62237,365.66838 c 50.61867,-25.87177 240.71991,-74.2407 241.84477,128.23385"
+     d="m 426.62237,357.06871 c 50.61867,-25.87177 240.71991,-74.2407 241.84477,128.23385"
      id="path22981"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="cc" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:480.79733276px;line-height:100%;font-family:sans-serif;letter-spacing:1286.22900391px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="1754.0905"
+     y="-10.482164"
+     id="text22949"
+     sodipodi:linespacing="100%"><tspan
+       sodipodi:role="line"
+       id="tspan22951"
+       x="1754.0905"
+       y="-10.482164"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'" /><tspan
+       sodipodi:role="line"
+       x="1754.0905"
+       y="470.31516"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:100%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;letter-spacing:0px;word-spacing:0.08193053px;text-anchor:middle"
+       id="tspan22953">schlib</tspan></text>
 </svg>
