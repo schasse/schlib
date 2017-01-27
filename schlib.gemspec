@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
   unless spec.respond_to?(:metadata)
     raise 'You are only allowed to push this gem to rubygems :p.'
   end
-  spec.metadata['allowed_push_host'] = 'https://rubygems.org/'
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.files = Dir['lib/**/*.rb']
   spec.require_paths = ['lib']
