@@ -1,0 +1,8 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+Style/Documentation:
+  Exclude:
+    - 'spec/**/*'
+    - 'test/**/*'
+    - 'lib/schlib.rb'
