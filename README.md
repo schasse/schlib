@@ -24,10 +24,14 @@ This gem consists of several helper classes. Require them and use them.
 
 ### Cache
 
+Cache helps to cache long running computations or I/O. It acts similar
+to Rails' cache and persists to a file. It is only possible to cache
+simple data structures like Array, String, Integer, etc...
+
 ``` ruby
 require 'schlib/cache'
 
-c = Schlib::Cache.new('/tmp/my_cach_file.tmp')
+c = Schlib::Cache.new('/tmp/my_cache_file.tmp')
 
 def calc_pi(n)
   # this caclulation of pi may not be correct :D
@@ -48,6 +52,30 @@ end
 
 precise_pi # first call takes long time
 precise_pi # successive calls are fast
+```
+
+### Command
+
+Command is a wrapper around ruby's backticks and enables logging and
+raising exceptions on bad exitcodes.
+
+``` ruby
+require 'logger'
+require 'schlib/command'
+
+c0 = Schlib::Command.new
+c0.run 'wtf', approve_exitcode: true
+# ScriptError: COMMAND FAILED!
+# from /home/schasse/code/schlib/lib/schlib/command.rb:15:in `run'
+
+l = Logger.new(STDOUT).tap { |l| l.level = Logger::DEBUG }
+c1 = Command.new l
+
+c1.run 'wtf???'
+# D, [2017-01-28T11:51:08.387088 #29538] DEBUG -- : wtf???
+# D, [2017-01-28T11:51:08.388694 #29538] DEBUG -- : sh: 1: wtf???: not found
+#
+# => "sh: 1: wtf???: not found\n"
 ```
 
 ## Development

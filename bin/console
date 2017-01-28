@@ -2,7 +2,9 @@
 # frozen_string_literal: true
 
 require 'bundler/setup'
-require 'schlib/version'
-
 require 'pry'
+require 'schlib/version'
+require 'schlib/cache'
+require 'schlib/command'
+
 Pry.start
