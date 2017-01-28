@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/schasse/schlib.svg?branch=master)](https://travis-ci.org/schasse/schlib)
 ![](https://github.com/schasse/schlib/blob/master/logo/schlib_logo.png)
 
 `schlib` is a library with selected useful classes.
