@@ -9,14 +9,18 @@ module Schlib
 
     def cache(cache_key)
       mutable_cache_data = data
-      thing = mutable_cache_data[cache_key] ||= yield
-      File.write cache_file, JSON.dump(mutable_cache)
+      thing = mutable_cache_data[cache_key.to_s] ||= yield
+      File.write cache_file, JSON.dump(mutable_cache_data)
       thing
     end
 
     def data
-      File.write cache_file, Marshal.dump({}) unless File.exist? cache_file
+      File.write cache_file, JSON.dump({}) unless File.exist? cache_file
       JSON.parse File.read cache_file
+    end
+
+    def clear
+      File.delete cache_file
     end
 
     private
