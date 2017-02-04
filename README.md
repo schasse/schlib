@@ -79,6 +79,24 @@ c1.run 'wtf???'
 # => "sh: 1: wtf???: not found\n"
 ```
 
+### Spinner
+
+![spinner animation](https://github.com/schasse/schlib/raw/master/spinner.gif)
+
+Have a long running command? Use spinner to entertain.
+
+``` ruby
+require 'schlib/spinner'
+
+Schlib::Spinner.wait_for do
+  sleep 2
+  return 'well-rested'
+end
+# Loading ▇ ... done
+#
+# => "well-rested"
+```
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install
