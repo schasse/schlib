@@ -19,6 +19,12 @@ module Schlib
       JSON.parse File.read cache_file
     end
 
+    def reset(key)
+      mutable_cache_data = data
+      mutable_cache_data[key.to_s] = nil
+      File.write cache_file, JSON.dump(mutable_cache_data)
+    end
+
     def clear
       File.delete cache_file
     end
