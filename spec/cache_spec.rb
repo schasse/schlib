@@ -17,7 +17,7 @@ RSpec.describe Schlib::Cache do
     end
   end
 
-  describe '#delete' do
+  describe '#reset' do
     it 'deletes a single cache entry' do
       cache = c.cache(:my_int) { 10 }
       expect(c.cache(:my_int) { 20 }).to eq cache
