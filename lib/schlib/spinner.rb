@@ -16,7 +16,7 @@ module Schlib
       Thread.new do
         begin
           i = 0
-          frames = %w(▁ ▃ ▅ ▆ ▇ █ ▇ ▆ ▅ ▃)
+          frames = %w[▁ ▃ ▅ ▆ ▇ █ ▇ ▆ ▅ ▃]
           loop do
             frame = frames[i % frames.size]
             print "\rLoading #{frame} ... "
